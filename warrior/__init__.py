@@ -1,4 +1,5 @@
 import os
+import aiohttp
 import logging
 
 import pyromod.listen
@@ -16,7 +17,7 @@ MONGODB_URL = "mongodb+srv://Shiki:xnp9czdVYgpT4KBE@shiki.smrp72r.mongodb.net/"
 MONGO = MongoClient(MONGODB_URL)
 DATABASE = MONGO.WARRIOR
 
-
+aiohttpsession = aiohttp.ClientSession() # session
 
 FORMAT = "[Warrior]: %(message)s"
 
