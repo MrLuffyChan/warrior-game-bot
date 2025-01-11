@@ -3,7 +3,7 @@ from warrior import bot
 
 import asyncio, aiohttp, logging, traceback
 
-WEB_URL = ""
+WEB_URL = "https://warrior-etpt.onrender.com"
 WEB_SLLEP = 3*60
 
 log = logging.getLogger(__name__)
