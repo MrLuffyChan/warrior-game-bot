@@ -1,5 +1,5 @@
 from aiohttp import web
-from warrior import bot, GROUP_ID
+from warrior import bot
 
 import asyncio, aiohttp, logging, traceback
 
@@ -64,6 +64,3 @@ if __name__ == "__main__":
      loop.run_until_complete(start_services())
      bot.run()
      log.info('Bot Started!')
-     with bot:
-        bot.send_message(chat_id=GROUP_ID,
-           text="Warrior Has Been Successfully Awakened!")
