@@ -5,5 +5,5 @@ pyromod
 tgcrypto
 telegraph 
 requests
-aiohttp==3.9.5
+aiohttp
 asyncio
