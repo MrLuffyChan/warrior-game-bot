@@ -1,1 +1,1 @@
-worker: python3 -m warrior 
+web: python3 -m warrior 
